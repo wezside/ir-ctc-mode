@@ -19,4 +19,4 @@ Resources
 ---------
 
 * AtTiny85 Datasheet
-* [MAxEmbedded AVR Timer CTC Timer Tutorial](http://maxembedded.com/2011/07/avr-timers-ctc-mode/)
+* [MaxEmbedded AVR  CTC Timer Tutorial](http://maxembedded.com/2011/07/avr-timers-ctc-mode/)
