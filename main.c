@@ -39,9 +39,8 @@ ISR(TIM0_COMPA_vect)
 		// pin which is connected  to the OCR0A register will end in a logical 
 		// HIGH which means the pin PB0 will stay HIGH. So the delay here has no effect 
 		// in the IR pulse and instead it stays on. So we need to forcefully 
-		// switch it off and then reset TOP to the clock ticks needed to produce
-		// a 38Khz signal. An easy way to verify this is to connect a normal LED to 
-		// PB0 and see if it switches off for the 3ms delay.
+		// switch it off and then reset TOP to the clock time period needed to produce
+		// a 38Khz signal. 
 		// 
 		// The end state of the OCR0A register could be something to do with the 
 		// conditional above in that it evaluates to false before the waveform hits
