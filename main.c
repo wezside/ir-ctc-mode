@@ -9,13 +9,8 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-long on = 260;
-long pulse_tc = 0;
-
-// 26 clock ticks needed to produce a 38Khz - 
-// 13 ON (HIGH) and 13 OFF (LOW)
 long pulse = 0;
-
+long pulse_tc = 0;
 
 /** 
  * A single pulse for a 38Khz IR detector is 26 microseconds(μs) long - 
